@@ -1,0 +1,28 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm i)",
+      "Bash(npm run dev:*)",
+      "Bash(node:*)",
+      "Bash(/c/Users/hariharank/AppData/Local/Programs/@devswarmsource/resources/node-binaries/win32-x64/npm install)",
+      "Read(//c/Users/hariharank/AppData/Local/Programs/@devswarmsource/resources/node-binaries/win32-x64//**)",
+      "Bash(npx:*)",
+      "Bash(yarn --version)",
+      "Bash(pnpm:*)",
+      "Bash(bun:*)",
+      "Bash(corepack:*)",
+      "Bash(choco:*)",
+      "Bash(winget:*)",
+      "Bash(scoop:*)",
+      "Bash(npm:*)",
+      "Bash(\"C:\\Program Files\\nodejs\\npm.exe\" --version)",
+      "Read(//d/**)",
+      "Bash(echo $PATH)",
+      "Bash(powershell:*)",
+      "Read(//c/Program Files/nodejs//**)",
+      "Bash(export:*)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
